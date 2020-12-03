@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.stefani.paunova</groupId>
+  <artifactId>HangmanGame</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>HangmanGame</name>
+  <url>http://maven.apache.org</url>
+
+ 
+  <properties>
+   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
+	</properties>
+  
+
+  <dependencies>
+   <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    	<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring</artifactId>
+    <version>5.3.1</version>
+    <type>pom</type>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.3.1</version>
+</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>5.3.1</version>
+</dependency>
+    
+    		
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>2.21.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+ <dependency>
+                <groupId>org.stefani.paunova</groupId>
+                <artifactId>hangmanBuisnessLogic</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+    
+  </dependencies>
+  <modules>
+  	<module>hangmanBuisnessLogic</module>
+  	<module>hangman.web</module>
+  </modules>
+</project>
