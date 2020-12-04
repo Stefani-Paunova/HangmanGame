@@ -1,4 +1,4 @@
-package org.stefani.paunova.HangmanGame;
+package org.hangmanBuisnessLogic;
 
 import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.MatcherAssert.assertThat;
