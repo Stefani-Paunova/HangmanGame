@@ -51,11 +51,6 @@
     		
 
 
- <dependency>
-                <groupId>org.stefani.paunova</groupId>
-                <artifactId>hangmanBuisnessLogic</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
     
   </dependencies>
   <modules>

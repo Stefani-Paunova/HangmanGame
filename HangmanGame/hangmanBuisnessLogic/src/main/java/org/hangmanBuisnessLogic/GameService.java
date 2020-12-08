@@ -15,9 +15,9 @@ public class GameService implements GameLogic{
 	@Autowired
 	private Helper helper;
 	
-	public GameService(Helper helper) {
+/*	public GameService(Helper helper) {
 		this.helper = helper;
-	}
+	}*/
 	public GameService() {
 		
 	}
